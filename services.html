@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ's Power Washing & Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bec8cb5b8d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@100;400&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="CJs Logo.png" alt="CJ's Power Washing Services">
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="#">About Us</a>
+            <a href="tel:5807751076">Call Us: 580-980-0949</a>
+        </div>
+        <svg
+            width="44"
+            height="18"
+            viewBox="0 0 44 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+        <line
+          class="line"
+          y1="1"
+          x2="35"
+          y2="1"
+          stroke="white"
+          stroke-width="2"
+        />
+        <line
+          class="line"
+          y1="9"
+          x2="35"
+          y2="9"
+          stroke="white"
+          stroke-width="2"
+        />
+        <line
+          class="line"
+          y1="17"
+          x2="35"
+          y2="17"
+          stroke="white"
+          stroke-width="2"
+        />
+      </svg>
+    </nav>
+    <section class="services">
+        <div class="services-title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="quote-container" onclick="quote(this)">
+            <div class="exit">X</div>
+            <h3>Request a Quote</h3>
+            <form action="https://formsubmit.co/cjsdetailandpowerwash@gmail.com" method="POST">
+                <div class="form-name">
+                    <input type="text" placeholder="Name" id="prod-name" name="name" value required>
+                </div>
+                <div class="form-company">
+                    <input type="text" placeholder="Company" id="prod-company" name="company" >
+                </div>
+                <div class="form-phone">
+                    <input type="text" placeholder="Phone" id="prod-phone" name="phone" value required>
+                </div>
+                <div class="form-email">
+                    <input type="text" placeholder="Email" id="prod-email" name="email" value required>
+                </div>
+                <div class="form-message">
+                    <textarea type="text" placeholder="Describe your project..." id="prod-message" name="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-button">
+                    <button type="submit" id="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    <div class="services-container">
+            <div class="service">
+                <i class="fa-solid fa-square-parking"></i>
+                <h3>Parking Lots</h3>
+                <p>We specialize in cleaning and rejuvenating parking lots. Using state-of-the-art equipment and environmentally friendly cleaning solutions, we can remove stains, dirt, and grime to restore the appearance of your parking lot. Trust us to provide top-notch service and leave your parking lot looking like new.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-car"></i>
+                <h3>Driveways</h3>
+                <p> We offers comprehensive driveway cleaning services. Using high-pressure water jets and eco-friendly cleaning solutions, we can remove dirt, grime, and stains from your driveway, restoring its appearance and prolonging its lifespan. Trust us to provide reliable and efficient service, leaving your driveway looking like new.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-ship"></i>
+                <h3>Boat Docks</h3>
+                <p>Using our equipment and environmentally friendly cleaning solutions, we can remove algae, stains, and grime from your boat dock, ensuring it is safe and visually appealing. Trust us to provide top-notch service and leave your boat dock looking like new.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-building"></i>
+                <h3>Buildings</h3>
+                <p>Our high-pressure water jets and eco-friendly cleaning solutions, we can remove dirt, grime, and stains from the exterior of your building, improving its appearance and protecting it from the elements.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-house"></i>
+                <h3>Houses</h3>
+                <p>We offer power washing for houses at an affordable price. We are a small company that is locally owned and operated.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-house"></i>
+                <h3>Roofs</h3>
+                <p>One of the best ways to keep your house looking great is power washing your roof. This process removes all the dirt and grime that can build up on a roof over time. This will keep your house looking beautiful and extend its life.</p>
+            </div>
+    </div>
+    <div class="cta-services">
+        <button class="cta-main">Get a Quote</button>
+    </div>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>    
+</body>
