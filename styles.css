@@ -544,6 +544,9 @@ font-size: x-large;
         padding-left: -5;
         width: 200px;
     }
+    .about-right video{
+        display: none;
+    }
 }
 
 a{
