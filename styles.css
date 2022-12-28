@@ -107,7 +107,7 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: centera;
+    text-align: center;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.216);
 }
@@ -339,11 +339,17 @@ svg{
 
 .service p{
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 0.8rem;
 }
 
 .service h3{
     padding: 1rem;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
@@ -355,8 +361,9 @@ svg{
     text-transform: uppercase;
     text-align: center;
     padding: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
     color: #284470;
+    font-size: 2rem;
 }
 
 .fa-solid .fa-square-parking{
@@ -398,6 +405,15 @@ font-size: x-large;
         font-size: 1.5rem;
         flex-wrap: wrap;
     }
+    .front-page .hero{
+        display: none;
+    }
+    .front-page{
+        width: 100%;
+    }
+    .logo img{
+        width: 15rem;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -405,6 +421,18 @@ font-size: x-large;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        margin-top: 20vh;
+        text-align: center;
+        background-color: white;
+        width: 60%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.216);
     }
     .ctas{
         display: flex;
@@ -457,6 +485,13 @@ font-size: x-large;
     font-size: 0.8rem;
 }
 
+.about-left p{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 0.8rem;
+}
+
 .about-left h2{
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -485,6 +520,29 @@ font-size: x-large;
     }
     .about-left h2{
         text-align: center;
+    }
+    .quote-container{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #284470;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        transform: translate(100%);
+        z-index: 1;
+    }
+    .main-container{
+        justify-content: space-between;
+    }
+    img{
+        margin-left: -5;
+        padding-left: -5;
+        width: 200px;
     }
 }
 
