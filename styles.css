@@ -552,6 +552,9 @@ font-size: x-large;
     .about-right video{
         display: none;
     }
+    .about{
+        width: 100%;
+    }
 }
 
 a{
