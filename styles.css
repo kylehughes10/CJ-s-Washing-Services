@@ -493,7 +493,12 @@ font-size: x-large;
 }
 
 .about-left h2{
-    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 1px;
+    color: #284470;
+    font-size: 2rem;   font-size: 2.2rem;
     text-transform: uppercase;
     color: #284470;
     padding: 10px 20px;
